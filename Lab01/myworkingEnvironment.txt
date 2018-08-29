@@ -1,0 +1,30 @@
+Default shell: tcsh 
+Prompt: /home/3/li.5527 %
+Command "echo" is a built-in command in the bash and C shells that writes its arguments to standard output. SHELL is the user preferred and current program that provides the command line. 
+
+Available shells:
+/bin/sh
+/bin/bash
+/sbin/nologin
+/bin/ksh
+/bin/zsh
+/bin/tcsh
+/bin/csh
+/usr/contrib/bin/bash
+/usr/local/etc/message
+/bin/dash
+I find out using command "cat etc/shells".
+
+Home directory: /home/3/li.5527
+User name: li.5527
+Logname: li.5527
+Default paths: /class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/usr/lib/fastx2/bin:/usr/lib64/qt-3.3/bin:/usr/NX/bin:/class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/usr/local/bin:/bin:/usr/bin:/opt/dell/srvadmin/bin
+
+Server information: Linux zeta 2.6.32-696.18.7.el6.x86_64 #1 SMP Thu Dec 28 20:15:47 EST 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+Using command "ps", there are two processes, tcsh and ps. When using "ps aux", there are many processes by different users. I can see a process tree using command "pstree".
+
+UID: 30750
+GID: 400
+
+

@@ -1,0 +1,13 @@
+cmp - compare two files byte by byte
+diff - compare two files line by line
+
+sort - sort lines of text files
+uniq - report or omit repeated lines
+
+tee - read from standard input and write to standard output and files
+tr - translate or delete characters
+
+fmt - simple optimal text formatter
+split - split a file into pieces
+
+

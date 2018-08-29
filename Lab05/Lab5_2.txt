@@ -1,0 +1,16 @@
+Script started on Mon 09 Apr 2018 04:10:46 PM EDT
+]0;/dev/pts/19@sl4
+[7m/home/3/li.5527/Desktop/Lab05[80G[27m  % ./new_datebook.sh 
+]0;/dev/pts/19@sl4
+[7m/home/3/li.5527/Desktop/Lab05[80G[27m  % ./new_datebook.sh[3Gexit[K% sed -n '/:\(12\|1\)\/[0-9]\+\/[0-9]\+/p' datebook.txt[11G[27P2,$[29G[7G'/Lane/d[29G[8G[3P1,2[26G[8G[3@/Lane/[29G[7G-n '2,$p[29G[11G[27@/:\(12\|1\)\/[0-9]\+\/[0-9]\+/[56G[3Gexit[K% ./new_datebook.sh[3G[Ksed -n p new_
+new_datebook.sh~  new_datebook.sh*  new_datebook.txt  
+[7m/home/3/li.5527/Desktop/Lab05[80G[27m  % sed -n p new_datebook.txt
+James Ikeda:834-938-8376:23445 Aster Ave., Allentown, NJ 83745:12/1/38:45000
+Barbara Kertz:385-573-8326:832 Ponce Drive, Gary, IN 83756:12/1/46:268500
+Zippy Pinhead:834-823-8319:2356 Bizarro Ave., Farmount, IL 84357:1/1/67:89500
+]0;/dev/pts/19@sl4
+[7m/home/3/li.5527/Desktop/Lab05[80G[27m  % exit
+]0;/dev/pts/19@sl4
+exit
+
+Script done on Mon 09 Apr 2018 04:11:15 PM EDT

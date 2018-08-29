@@ -1,0 +1,361 @@
+Script started on Mon 29 Jan 2018 07:44:12 PM EST
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man cmp
+[?1049h[?1h=CMP(1)                           User Commands                          CMP(1)
+
+[1mNAME[0m
+       cmp - compare two files byte by byte
+
+[1mSYNOPSIS[0m
+       [1mcmp[0m [[4mOPTION[24m]... [4mFILE1[24m [[4mFILE2[24m [[4mSKIP1[24m [[4mSKIP2[24m]]]
+
+[1mDESCRIPTION[0m
+       Compare two files byte by byte.
+
+       [1m-b[0m  [1m--print-bytes[0m
+              Print differing bytes.
+
+       [1m-i[0m SKIP  [1m--ignore-initial[0m=[4mSKIP[24m
+              Skip the first SKIP bytes of input.
+
+       [1m-i[0m SKIP1:SKIP2  [1m--ignore-initial[0m=[4mSKIP1[24m:SKIP2
+
+              Skip the first SKIP1 bytes of FILE1 and the first SKIP2 bytes of
+              FILE2.
+
+       [1m-l[0m  [1m--verbose[0m
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man diff
+[?1049h[?1h=DIFF(1)                          User Commands                         DIFF(1)
+
+[1mNAME[0m
+       diff - compare files line by line
+
+[1mSYNOPSIS[0m
+       [1mdiff[0m [[4mOPTION[24m]... [4mFILES[24m
+
+[1mDESCRIPTION[0m
+       Compare files line by line.
+
+       [1m-i[0m  [1m--ignore-case[0m
+              Ignore case differences in file contents.
+
+       [1m--ignore-file-name-case[0m
+              Ignore case when comparing file names.
+
+       [1m--no-ignore-file-name-case[0m
+              Consider case when comparing file names.
+
+       [1m-E[0m  [1m--ignore-tab-expansion[0m
+              Ignore changes due to tab expansion.
+
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man sort
+[?1049h[?1h=SORT(1)                          User Commands                         SORT(1)
+
+[1mNAME[0m
+       sort - sort lines of text files
+
+[1mSYNOPSIS[0m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m
+
+[1mDESCRIPTION[0m
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.  Ordering options:
+
+       [1m-b[0m, [1m--ignore-leading-blanks[0m
+              ignore leading blanks
+
+       [1m-d[0m, [1m--dictionary-order[0m
+              consider only blanks and alphanumeric characters
+
+       [1m-f[0m, [1m--ignore-case[0m
+              fold lower case to upper case characters
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man unique[K[K
+[?1049h[?1h=UNIQ(1)                          User Commands                         UNIQ(1)
+
+[1mNAME[0m
+       uniq - report or omit repeated lines
+
+[1mSYNOPSIS[0m
+       [1muniq[0m [[4mOPTION[24m]... [[4mINPUT[24m [[4mOUTPUT[24m]]
+
+[1mDESCRIPTION[0m
+       Filter  adjacent matching lines from INPUT (or standard input), writing
+       to OUTPUT (or standard output).
+
+       With no options, matching lines are merged to the first occurrence.
+
+       Mandatory arguments to long options are  mandatory  for  short  options
+       too.
+
+       [1m-c[0m, [1m--count[0m
+              prefix lines by the number of occurrences
+
+       [1m-d[0m, [1m--repeated[0m
+              only print duplicate lines
+
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man tee
+[?1049h[?1h=TEE(1)                           User Commands                          TEE(1)
+
+[1mNAME[0m
+       tee - read from standard input and write to standard output and files
+
+[1mSYNOPSIS[0m
+       [1mtee[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Copy standard input to each FILE, and also to standard output.
+
+       [1m-a[0m, [1m--append[0m
+              append to the given FILEs, do not overwrite
+
+       [1m-i[0m, [1m--ignore-interrupts[0m
+              ignore interrupt signals
+
+       [1m--help[0m display this help and exit
+
+       [1m--version[0m
+              output version information and exit
+
+       If a FILE is -, copy again to standard output.
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man tr
+[?1049h[?1h=TR(1)                            User Commands                           TR(1)
+
+[1mNAME[0m
+       tr - translate or delete characters
+
+[1mSYNOPSIS[0m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m]
+
+[1mDESCRIPTION[0m
+       Translate, squeeze, and/or delete characters from standard input, writ-
+       ing to standard output.
+
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m
+              use the complement of SET1
+
+       [1m-d[0m, [1m--delete[0m
+              delete characters in SET1, do not translate
+
+       [1m-s[0m, [1m--squeeze-repeats[0m
+              replace each input sequence of  a  repeated  character  that  is
+              listed in SET1 with a single occurrence of that character
+
+       [1m-t[0m, [1m--truncate-set1[0m
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man fmt
+[?1049h[?1h=FMT(1)                           User Commands                          FMT(1)
+
+[1mNAME[0m
+       fmt - simple optimal text formatter
+
+[1mSYNOPSIS[0m
+       [1mfmt[0m [[4m-WIDTH[24m] [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Reformat  each  paragraph  in  the FILE(s), writing to standard output.
+       The option [1m-WIDTH[0m is an abbreviated form of [1m--width[0m=[4mDIGITS[24m.
+
+       Mandatory arguments to long options are  mandatory  for  short  options
+       too.
+
+       [1m-c[0m, [1m--crown-margin[0m
+              preserve indentation of first two lines
+
+       [1m-p[0m, [1m--prefix[0m=[4mSTRING[24m
+              reformat  only lines beginning with STRING, reattaching the pre-
+              fix to reformatted lines
+
+       [1m-s[0m, [1m--split-only[0m
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man splt[Kit
+[?1049h[?1h=SPLIT(1)                         User Commands                        SPLIT(1)
+
+[1mNAME[0m
+       split - split a file into pieces
+
+[1mSYNOPSIS[0m
+       [1msplit[0m [[4mOPTION[24m]... [[4mINPUT[24m [[4mPREFIX[24m]]
+
+[1mDESCRIPTION[0m
+       Output  fixed-size  pieces of INPUT to PREFIXaa, PREFIXab, ...; default
+       size is 1000 lines, and default PREFIX is ‘x’.  With no INPUT, or  when
+       INPUT is -, read standard input.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-a[0m, [1m--suffix-length[0m=[4mN[24m
+              use suffixes of length N (default 2)
+
+       [1m-b[0m, [1m--bytes[0m=[4mSIZE[24m
+              put SIZE bytes per output file
+
+       [1m-C[0m, [1m--line-bytes[0m=[4mSIZE[24m
+:[K[K[?1l>[?1049l]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % gedit test1.ttx[K[Kxt
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % gedit test1.txt[P[1@2
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % cmp tes[Kst
+test1.txt   test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % cmp test1.txt test2
+test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % cmp test1.txt test2.txt
+test1.txt test2.txt differ: byte 12, line 2
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % diff test 1[K1.txt test2
+test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % diff test1.txt test2.txt
+2c2,3
+< World!
+---
+> World
+> !
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % sort tes
+test1.txt   test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % sort test1.txt 
+Hello
+World!
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % uniq test1.txt 
+Hello
+World!
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tee test1.txt 
+h
+h
+e
+e
+llo
+llo
+q
+q
+^C
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % gedit test1.txt 
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr test1.txt 
+tr: missing operand after `test1.txt'
+Two strings must be given when translating.
+Try `tr --help' for more information.
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr --help
+Usage: tr [OPTION]... SET1 [SET2]
+Translate, squeeze, and/or delete characters from standard input,
+writing to standard output.
+
+  -c, -C, --complement    use the complement of SET1
+  -d, --delete            delete characters in SET1, do not translate
+  -s, --squeeze-repeats   replace each input sequence of a repeated character
+                            that is listed in SET1 with a single occurrence
+                            of that character
+  -t, --truncate-set1     first truncate SET1 to length of SET2
+      --help     display this help and exit
+      --version  output version information and exit
+
+SETs are specified as strings of characters.  Most represent themselves.
+Interpreted sequences are:
+
+  \NNN            character with octal value NNN (1 to 3 octal digits)
+  \\              backslash
+  \a              audible BEL
+  \b              backspace
+  \f              form feed
+  \n              new line
+  \r              return
+  \t              horizontal tab
+  \v              vertical tab
+  CHAR1-CHAR2     all characters from CHAR1 to CHAR2 in ascending order
+  [CHAR*]         in SET2, copies of CHAR until length of SET1
+  [CHAR*REPEAT]   REPEAT copies of CHAR, REPEAT octal if starting with 0
+  [:alnum:]       all letters and digits
+  [:alpha:]       all letters
+  [:blank:]       all horizontal whitespace
+  [:cntrl:]       all control characters
+  [:digit:]       all digits
+  [:graph:]       all printable characters, not including space
+  [:lower:]       all lower case letters
+  [:print:]       all printable characters, including space
+  [:punct:]       all punctuation characters
+  [:space:]       all horizontal or vertical whitespace
+  [:upper:]       all upper case letters
+  [:xdigit:]      all hexadecimal digits
+  [=CHAR=]        all characters which are equivalent to CHAR
+
+Translation occurs if -d is not given and both SET1 and SET2 appear.
+-t may be used only when translating.  SET2 is extended to length of
+SET1 by repeating its last character as necessary.  Excess characters
+of SET2 are ignored.  Only [:lower:] and [:upper:] are guaranteed to
+expand in ascending order; used in SET2 while translating, they may
+only be used in pairs to specify case conversion.  -s uses SET1 if not
+translating nor deleting; else squeezing uses SET2 and occurs after
+translation or deletion.
+
+Report tr bugs to bug-coreutils@gnu.org
+GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+For complete documentation, run: info coreutils 'tr invocation'
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr --help[6Gtest1.txt t
+t
+t
+o
+o
+^C
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr test1.txt t[6G--help[K[6Gtest1.txt[3G[3@gedit[18G
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr a b
+
+
+^C
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % tr h p < test1.txt 
+p
+e
+llo
+q
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % fmt test1.txt 
+h e llo q
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % fmt --width 10 text.txt[K[K[K[K[K[Ks
+test1.txt   test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % fmt --width 10 test1.txt 
+h e llo q
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % fmt --width 10 test1.txt[P
+h
+e
+llo
+q
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % fmt --width 1 test1.txt[P[1@3
+h
+e
+llo
+q
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % spilt -b 20 test32[K[K2
+test2.txt~  test2.txt   
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % spilt -b 20 test2.txt
+spilt: Command not found.
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % spilt -b 20 test2.txtl[P[P[1@l[1@i
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % split -b 20 test2.txt0[P[P[1@4 test2.txt new
+]0;/dev/pts/6@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % exit
+]0;/dev/pts/6@zeta
+exit
+
+Script done on Mon 29 Jan 2018 07:57:00 PM EST

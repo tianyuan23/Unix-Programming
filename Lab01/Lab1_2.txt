@@ -1,0 +1,584 @@
+Script started on Mon 29 Jan 2018 08:26:21 PM EST
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % S[Kecho S[K$SHELL
+/bin/tcsh
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % cat /etc/shells
+/bin/sh
+/bin/bash
+/sbin/nologin
+/bin/ksh
+/bin/zsh
+/bin/tcsh
+/bin/csh
+/usr/contrib/bin/bash
+/usr/local/etc/message
+/bin/dash
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % echoi[K $HOME
+/home/3/li.5527
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % echo $HOME[K[K[K[K[KUSER
+USER
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % echo USER[1@$
+li.5527
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % echo $USERR[K[K[K[KLOGNAME
+li.5527
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % echo $LOGNAME[K[K[K[K[K[K[KPATH
+/class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/usr/lib/fastx2/bin:/usr/lib64/qt-3.3/bin:/usr/NX/bin:/class/software/bin:/usr/local/bin:/usr/local/matlab/bin:/usr/local/maple/bin:/usr/bin:/bin:/usr/local/sim/misc:/usr/local/sim/pipe:/usr/local/sim/seq:.:/usr/local/bin:/bin:/usr/bin:/opt/dell/srvadmin/bin
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % uname a
+uname: extra operand `a'
+Try `uname --help' for more information.
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % uname a[K-0a[K[Ka
+Linux zeta 2.6.32-696.18.7.el6.x86_64 #1 SMP Thu Dec 28 20:15:47 EST 2017 x86_64 x86_64 x86_64 GNU/Linux
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % ps
+  PID TTY          TIME CMD
+15192 pts/5    00:00:00 tcsh
+15959 pts/5    00:00:00 ps
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  25676  1496 ?        Ss   Jan05  14:52 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jan05   0:01 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan05   6:49 [migration/0]
+root         4  0.0  0.0      0     0 ?        S    Jan05   0:10 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/0]
+root         6  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/0]
+root         7  0.0  0.0      0     0 ?        S    Jan05  12:06 [migration/1]
+root         8  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/1]
+root         9  0.0  0.0      0     0 ?        S    Jan05   1:07 [ksoftirqd/1]
+root        10  0.0  0.0      0     0 ?        S    Jan05   0:03 [watchdog/1]
+root        11  0.0  0.0      0     0 ?        S    Jan05   6:26 [migration/2]
+root        12  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/2]
+root        13  0.0  0.0      0     0 ?        S    Jan05   0:09 [ksoftirqd/2]
+root        14  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/2]
+root        15  0.0  0.0      0     0 ?        S    Jan05   5:54 [migration/3]
+root        16  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/3]
+root        17  0.0  0.0      0     0 ?        S    Jan05   0:07 [ksoftirqd/3]
+root        18  0.0  0.0      0     0 ?        S    Jan05   0:01 [watchdog/3]
+root        19  0.0  0.0      0     0 ?        S    Jan05  10:51 [migration/4]
+root        20  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/4]
+root        21  0.0  0.0      0     0 ?        S    Jan05   0:22 [ksoftirqd/4]
+root        22  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/4]
+root        23  0.0  0.0      0     0 ?        S    Jan05  13:41 [migration/5]
+root        24  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/5]
+root        25  0.0  0.0      0     0 ?        S    Jan05   0:27 [ksoftirqd/5]
+root        26  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/5]
+root        27  0.0  0.0      0     0 ?        S    Jan05   9:24 [migration/6]
+root        28  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/6]
+root        29  0.0  0.0      0     0 ?        S    Jan05   0:21 [ksoftirqd/6]
+root        30  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/6]
+root        31  0.0  0.0      0     0 ?        S    Jan05   9:34 [migration/7]
+root        32  0.0  0.0      0     0 ?        S    Jan05   0:00 [stopper/7]
+root        33  0.0  0.0      0     0 ?        S    Jan05   0:18 [ksoftirqd/7]
+root        34  0.0  0.0      0     0 ?        S    Jan05   0:02 [watchdog/7]
+root        35  0.0  0.0      0     0 ?        S    Jan05   1:43 [events/0]
+root        36  0.0  0.0      0     0 ?        S    Jan05   2:16 [events/1]
+root        37  0.0  0.0      0     0 ?        S    Jan05   1:38 [events/2]
+root        38  0.0  0.0      0     0 ?        S    Jan05   1:33 [events/3]
+root        39  0.0  0.0      0     0 ?        S    Jan05   1:53 [events/4]
+root        40  0.0  0.0      0     0 ?        S    Jan05   4:04 [events/5]
+root        41  0.0  0.0      0     0 ?        S    Jan05   1:43 [events/6]
+root        42  0.0  0.0      0     0 ?        S    Jan05   2:01 [events/7]
+root        43  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/0]
+root        44  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/1]
+root        45  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/2]
+root        46  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/3]
+root        47  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/4]
+root        48  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/5]
+root        49  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/6]
+root        50  0.0  0.0      0     0 ?        S    Jan05   0:00 [events/7]
+root        51  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/0]
+root        52  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/1]
+root        53  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/2]
+root        54  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/3]
+root        55  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/4]
+root        56  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/5]
+root        57  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/6]
+root        58  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_long/7]
+root        59  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        60  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        61  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        62  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        63  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        64  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        65  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        66  0.0  0.0      0     0 ?        S    Jan05   0:00 [events_power_]
+root        67  0.0  0.0      0     0 ?        S    Jan05   0:00 [cgroup]
+root        68  0.0  0.0      0     0 ?        S    Jan05   0:00 [khelper]
+root        69  0.0  0.0      0     0 ?        S    Jan05   0:00 [netns]
+root        70  0.0  0.0      0     0 ?        S    Jan05   0:00 [async/mgr]
+root        71  0.0  0.0      0     0 ?        S    Jan05   0:00 [pm]
+root        72  0.0  0.0      0     0 ?        S    Jan05   0:07 [sync_supers]
+root        73  0.0  0.0      0     0 ?        S    Jan05   0:00 [bdi-default]
+root        74  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/0]
+root        75  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/1]
+root        76  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/2]
+root        77  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/3]
+root        78  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/4]
+root        79  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/5]
+root        80  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/6]
+root        81  0.0  0.0      0     0 ?        S    Jan05   0:00 [kintegrityd/7]
+root        82  0.0  0.0      0     0 ?        S    Jan05   0:23 [kblockd/0]
+root        83  0.0  0.0      0     0 ?        S    Jan05   0:34 [kblockd/1]
+root        84  0.0  0.0      0     0 ?        S    Jan05   0:17 [kblockd/2]
+root        85  0.0  0.0      0     0 ?        S    Jan05   0:16 [kblockd/3]
+root        86  0.0  0.0      0     0 ?        S    Jan05   0:00 [kblockd/4]
+root        87  0.0  0.0      0     0 ?        S    Jan05   0:00 [kblockd/5]
+root        88  0.0  0.0      0     0 ?        S    Jan05   0:00 [kblockd/6]
+root        89  0.0  0.0      0     0 ?        S    Jan05   0:00 [kblockd/7]
+root        90  0.0  0.0      0     0 ?        S    Jan05   0:00 [kacpid]
+root        91  0.0  0.0      0     0 ?        S    Jan05   0:00 [kacpi_notify]
+root        92  0.0  0.0      0     0 ?        S    Jan05   0:00 [kacpi_hotplug]
+root        93  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_aux]
+root        94  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/0]
+root        95  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/1]
+root        96  0.0  0.0      0     0 ?        S    Jan05   0:52 [ata_sff/2]
+root        97  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/3]
+root        98  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/4]
+root        99  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/5]
+root       100  0.0  0.0      0     0 ?        S    Jan05   1:06 [ata_sff/6]
+root       101  0.0  0.0      0     0 ?        S    Jan05   0:00 [ata_sff/7]
+root       102  0.0  0.0      0     0 ?        S    Jan05   0:00 [ksuspend_usbd]
+root       103  0.0  0.0      0     0 ?        S    Jan05   0:00 [khubd]
+root       104  0.0  0.0      0     0 ?        S    Jan05   0:00 [kseriod]
+root       105  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/0]
+root       106  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/1]
+root       107  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/2]
+root       108  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/3]
+root       109  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/4]
+root       110  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/5]
+root       111  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/6]
+root       112  0.0  0.0      0     0 ?        S    Jan05   0:00 [md/7]
+root       113  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/0]
+root       114  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/1]
+root       115  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/2]
+root       116  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/3]
+root       117  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/4]
+root       118  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/5]
+root       119  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/6]
+root       120  0.0  0.0      0     0 ?        S    Jan05   0:00 [md_misc/7]
+root       121  0.0  0.0      0     0 ?        S    Jan05   0:00 [linkwatch]
+root       122  0.0  0.0      0     0 ?        S    Jan05   0:01 [khungtaskd]
+root       123  0.0  0.0      0     0 ?        S    Jan05   0:12 [kswapd0]
+root       124  0.0  0.0      0     0 ?        SN   Jan05   0:00 [ksmd]
+root       125  0.0  0.0      0     0 ?        SN   Jan05   1:22 [khugepaged]
+root       126  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/0]
+root       127  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/1]
+root       128  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/2]
+root       129  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/3]
+root       130  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/4]
+root       131  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/5]
+root       132  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/6]
+root       133  0.0  0.0      0     0 ?        S    Jan05   0:00 [aio/7]
+root       134  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/0]
+root       135  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/1]
+root       136  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/2]
+root       137  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/3]
+root       138  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/4]
+root       139  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/5]
+root       140  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/6]
+root       141  0.0  0.0      0     0 ?        S    Jan05   0:00 [crypto/7]
+root       148  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/0]
+root       149  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/1]
+root       150  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/2]
+root       151  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/3]
+root       152  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/4]
+root       153  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/5]
+root       154  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/6]
+root       155  0.0  0.0      0     0 ?        S    Jan05   0:00 [kthrotld/7]
+root       157  0.0  0.0      0     0 ?        S    Jan05   0:00 [kpsmoused]
+root       158  0.0  0.0      0     0 ?        S    Jan05   0:00 [usbhid_resume]
+root       159  0.0  0.0      0     0 ?        S    Jan05   0:00 [deferwq]
+root       191  0.0  0.0      0     0 ?        S    Jan05   0:00 [kdmremove]
+root       192  0.0  0.0      0     0 ?        S    Jan05   0:00 [kstriped]
+root       398  0.0  0.0      0     0 ?        S    Jan05   4:32 [scsi_eh_0]
+root       399  0.0  0.0      0     0 ?        S    Jan05   0:00 [scsi_eh_1]
+801714207  408  0.0  0.1 250228 14744 pts/1    T    20:05   0:00 emacs forktest3
+root       434  0.0  0.0      0     0 ?        S    Jan05   0:31 [mpt_poll_0]
+root       435  0.0  0.0      0     0 ?        S    Jan05   0:00 [mpt/0]
+root       436  0.0  0.0      0     0 ?        S    Jan05   0:00 [scsi_eh_2]
+root       489  0.0  0.0      0     0 ?        S    Jan05   2:01 [md1_raid1]
+root       498  0.0  0.0      0     0 ?        S    Jan05  29:16 [md2_raid1]
+root       515  0.0  0.0      0     0 ?        S    Jan05   1:24 [jbd2/md2-8]
+root       516  0.0  0.0      0     0 ?        S    Jan05   0:00 [ext4-dio-unwr]
+root       619  0.0  0.0  17500  1328 ?        S<s  Jan05   0:01 /sbin/udevd -d
+root       857  0.0  0.0      0     0 ?        S    Jan05   0:00 [edac-poller]
+root      1208  0.0  0.0      0     0 ?        S    Jan05   0:05 [md0_raid1]
+root      1315  0.0  0.0      0     0 ?        S    Jan05   0:58 [flush-9:2]
+root      1328  0.0  0.0      0     0 ?        S    Jan05   0:00 [jbd2/md0-8]
+root      1329  0.0  0.0      0     0 ?        S    Jan05   0:00 [ext4-dio-unwr]
+root      1379  0.0  0.0      0     0 ?        S    Jan05   0:08 [kauditd]
+root      1673  0.0  0.0  33940   852 ?        S<sl Jan05   0:38 auditd
+root      1707  0.0  0.0 260064  5416 ?        Sl   Jan05   1:58 /sbin/rsyslogd
+root      1762  0.0  0.0  18252   684 ?        Ss   Jan05   2:52 irqbalance --pi
+rpc       1780  0.0  0.0  18980   944 ?        Ss   Jan05   0:04 rpcbind
+rpcuser   1802  0.0  0.0  23620  1336 ?        Ss   Jan05   0:01 rpc.statd
+root      1819  0.0  0.0   4832   632 ?        Ss   Jan05   0:27 mdadm --monitor
+dbus      1856  0.0  0.0 105988  3788 ?        Ssl  Jan05   1:51 dbus-daemon --s
+avahi     1871  0.0  0.0  34124  1712 ?        S    Jan05   0:14 avahi-daemon: r
+avahi     1872  0.0  0.0  33992   396 ?        Ss   Jan05   0:00 avahi-daemon: c
+root      1896  0.0  0.0 215696  1288 ?        Sl   Jan05   0:20 /usr/sbin/ypbin
+root      1929  0.0  0.0 197600  5872 ?        Ss   Jan05   1:06 cupsd -C /etc/c
+root      1960  0.0  0.0      0     0 ?        S    Jan05   0:03 [rpciod/0]
+root      1961  0.0  0.0      0     0 ?        S    Jan05   4:44 [rpciod/1]
+root      1962  0.0  0.0      0     0 ?        S    Jan05   0:03 [rpciod/2]
+root      1963  0.0  0.0      0     0 ?        S    Jan05   0:03 [rpciod/3]
+root      1964  0.0  0.0      0     0 ?        S    Jan05   0:03 [rpciod/4]
+root      1965  0.0  0.0      0     0 ?        S    Jan05   0:23 [rpciod/5]
+root      1966  0.0  0.0      0     0 ?        S    Jan05   0:03 [rpciod/6]
+root      1967  0.0  0.0      0     0 ?        S    Jan05   0:02 [rpciod/7]
+root      1969  0.0  0.0      0     0 ?        S<   Jan05   0:00 [kslowd000]
+root      1970  0.0  0.0      0     0 ?        S<   Jan05   0:00 [kslowd001]
+root      1971  0.0  0.0      0     0 ?        S    Jan05   1:26 [nfsiod]
+root      1972  0.0  0.0      0     0 ?        S    Jan05   0:00 [lockd]
+root      1986  0.0  0.0   4076   640 ?        Ss   Jan05   0:20 /usr/sbin/acpid
+68        1998  0.0  0.0  45132  2708 ?        Ssl  Jan05   0:32 hald
+root      1999  0.0  0.0  20396  1156 ?        S    Jan05   0:00 hald-runner
+root      2043  0.0  0.0  22516  1060 ?        S    Jan05   0:00 hald-addon-inpu
+68        2050  0.0  0.0  24328  1104 ?        S    Jan05   0:00 hald-addon-acpi
+root      2074  0.0  0.0 891136  6304 ?        Ssl  Jan05   3:09 automount --pid
+root      2105  0.3  0.0  22076  3980 ?        Ss   Jan05 135:44 /sbin/cgrulesen
+nscd      2119  0.5  0.0 1181272 2892 ?        Ssl  Jan05 199:37 /usr/sbin/nscd
+root      2258  0.0  0.0      0     0 ?        S    Jan05   0:00 [cqueue]
+root      6697  0.0  0.0 104420  5416 ?        Ss   19:27   0:01 sshd: corbett.1
+801714207 6733  0.0  0.0 104420  3016 ?        S    19:27   0:00 sshd: corbett.1
+801714207 6734  0.0  0.0 107348  1692 pts/1    Ss+  19:27   0:00 -bash
+801714207 6885  0.0  0.1 250224 14732 pts/1    T    20:14   0:00 emacs forktest3
+root      9147  0.0  0.0   5260   148 ?        Ss   Jan05   0:00 /usr/sbin/mcelo
+root      9164  0.0  0.0  65252   608 ?        Ss   Jan05   1:40 /usr/sbin/sshd
+root      9175  0.0  0.0  20920   356 ?        Ss   Jan05   0:00 xinetd -stayali
+ntp       9186  0.0  0.0  26204  1272 ?        Ss   Jan05   0:23 ntpd -u ntp:ntp
+uuidd     9200  0.0  0.0 102972   108 ?        Ss   Jan05   0:00 uuidd
+clam      9211  0.0  6.8 710300 553084 ?       Ssl  Jan05  10:41 clamd
+nagios    9223  0.0  0.0  39880   548 ?        Ss   Jan05   7:38 /usr/local/nagi
+root      9244  0.0  0.0  92316  1212 ?        Ss   Jan05   1:45 sendmail: accep
+smmsp     9254  0.0  0.0  77572   780 ?        Ss   Jan05   0:00 sendmail: Queue
+root      9274  0.0  0.0 107604  1024 ?        S    Jan05   2:15 /bin/bash /usr/
+root      9287  0.0  0.0 124304  1144 ?        Ss   Jan05   8:51 crond
+xfs       9334  0.0  0.0  20648   428 ?        Ss   Jan05   0:00 xfs -droppriv -
+root      9393  0.0  0.0 341328  5496 ?        Sl   Jan05   7:57 /usr/bin/python
+root      9395  0.0  0.0  12676  1088 ?        S    Jan05   0:42 /usr/libexec/ga
+root      9415  0.0  0.0  20312   368 ?        Ss   Jan05   0:02 /usr/sbin/atd
+root      9425  0.1  0.1 595792 11068 ?        Sl   Jan05  36:49 /usr/local/bin/
+root      9474  0.0  0.0 198736  1236 ?        S    Jan05  11:31 /usr/sbin/snmpd
+li.5527   9606  0.6  0.1 308832 13472 ?        Sl   20:18   0:03 gnome-terminal
+li.5527   9610  0.0  0.0   7432   532 ?        S    20:18   0:00 gnome-pty-helpe
+li.5527   9611  0.0  0.0 110408  1768 pts/3    Ss   20:18   0:00 -csh
+root      9657  0.0  0.0 677596  3120 ?        Ssl  Jan05  33:29 /opt/dell/srvad
+root      9811  0.0  0.0 292900  2540 ?        Ssl  Jan05   0:47 /opt/dell/srvad
+root      9839  0.0  0.0 503200  2880 ?        Ssl  Jan05  14:21 /opt/dell/srvad
+root      9885  0.0  0.0 132628   440 ?        Ss   Jan05   0:00 /opt/dell/srvad
+root      9886  0.2  3.5 4824868 284608 ?      Sl   Jan05  72:07 /opt/dell/srvad
+root      9940  0.0  0.0 639392  1272 ?        Ssl  Jan05   0:06 /opt/dell/srvad
+root     10004  0.0  0.0 100936   556 ?        Ss   Jan05   0:02 rhnsd
+root     10018  0.0  0.0 108352   572 ?        Ss   Jan05   0:01 /usr/bin/rhsmce
+root     11174  0.0  0.0 133504  1904 ?        Ssl  Jan05   0:05 /usr/sbin/gdm-b
+root     11179  0.0  0.0   4060   448 tty2     Ss+  Jan05   0:00 /sbin/mingetty
+root     11181  0.0  0.0   4060   448 tty3     Ss+  Jan05   0:00 /sbin/mingetty
+root     11183  0.0  0.0   4060   448 tty4     Ss+  Jan05   0:00 /sbin/mingetty
+root     11185  0.0  0.0   4060   448 tty5     Ss+  Jan05   0:00 /sbin/mingetty
+root     11187  0.0  0.0   4060   448 tty6     Ss+  Jan05   0:00 /sbin/mingetty
+root     11299  0.0  0.0 164136  2684 ?        Sl   Jan05   0:00 /usr/libexec/gd
+root     11302  0.0  0.1 252496 12904 tty1     Ssl+ Jan05  11:18 /usr/bin/Xorg :
+root     11441  0.0  0.0 4116652 2180 ?        Sl   Jan05   0:42 /usr/sbin/conso
+gdm      11517  0.0  0.0  19060   404 ?        S    Jan05   0:00 /usr/bin/dbus-l
+gdm      11518  0.0  0.0  31016   992 ?        Ssl  Jan05   0:00 /bin/dbus-daemo
+gdm      11520  0.0  0.2 291128 21432 ?        Ssl  Jan05   0:08 /usr/bin/gnome-
+root     11542  0.0  0.0  49968  2524 ?        S    Jan05   0:30 /usr/libexec/de
+gdm      11546  0.0  0.0 131780  4696 ?        S    Jan05   0:10 /usr/libexec/gc
+gdm      11566  0.0  0.0 119740  4196 ?        S    Jan05   0:09 /usr/libexec/at
+gdm      11569  0.2  0.3 455808 26924 ?        Ssl  Jan05  74:18 /usr/libexec/gn
+gdm      11571  0.0  0.0 433232  2884 ?        Ssl  Jan05   0:00 /usr/libexec/bo
+gdm      11587  0.0  0.0 135296  1852 ?        S    Jan05   0:00 /usr/libexec/gv
+gdm      11588  0.0  0.1 293436  9280 ?        S    Jan05   0:17 metacity
+gdm      11609  0.0  0.2 416232 16632 ?        S    Jan05   1:26 /usr/libexec/gd
+gdm      11610  0.0  0.0 245312  6768 ?        S    Jan05   0:00 /usr/libexec/po
+root     11627  0.0  0.0  52084  4464 ?        S    Jan05   0:20 /usr/libexec/po
+root     11681  0.0  0.0 104420  5420 ?        Ss   19:33   0:01 sshd: xiao.465 
+xiao.465 11709  0.0  0.0 104420  2848 ?        S    19:33   0:00 sshd: xiao.465@
+xiao.465 11710  0.0  0.0 110616  1808 pts/0    Ss+  19:33   0:00 -tcsh
+root     11748  0.0  0.0 192888  2604 ?        S    Jan05   0:00 pam: gdm-passwo
+root     13226  0.0  0.0  17496  1140 ?        S<   Jan05   0:00 /sbin/udevd -d
+root     13227  0.0  0.0  18024  1884 ?        S<   Jan05   0:00 /sbin/udevd -d
+801995751 14587 0.1  0.1 285936 10456 ?        S    20:25   0:00 /usr/libexec/no
+li.5527  15189  0.0  0.0 105240   716 pts/3    S+   20:26   0:00 script Lab1_2.t
+li.5527  15191  0.0  0.0 105368   412 pts/3    S+   20:26   0:00 script Lab1_2.t
+li.5527  15192  0.1  0.0 110384  1776 pts/5    Ss   20:26   0:00 -csh -i
+root     15888  0.0  0.0 100920   568 ?        S    20:27   0:00 sleep 60
+30347    15927  5.3  0.2 391692 17448 pts/4    Sl+  20:27   0:00 gedit jack.c
+li.5527  15962  0.0  0.0 109244  1052 pts/5    R+   20:27   0:00 ps aux
+root     16350  0.0  0.0 104420  5408 ?        Ss   18:52   0:01 sshd: li.5527 [
+li.5527  16366  0.2  0.0 105764  4264 ?        S    18:52   0:16 sshd: li.5527@n
+li.5527  16367  0.0  0.0 110312  1320 ?        Ss   18:52   0:00 tcsh -c fastx2_
+li.5527  16387  0.1  0.1 145432  9152 ?        S    18:52   0:08 /usr/bin/perl /
+li.5527  16413  0.1  0.1 151668 11024 ?        S    18:52   0:09 FastX monitor 2
+li.5527  16414  4.1  0.8 1384416 69968 ?       Rl   18:52   3:55 Xorg :254 -logf
+li.5527  16426  0.0  0.0 254792  6320 ?        Sl   18:52   0:00 gnome-session
+li.5527  16431  0.0  0.0  19060   636 ?        S    18:52   0:00 dbus-launch --e
+li.5527  16432  0.0  0.0  31404  1628 ?        Ssl  18:52   0:01 /bin/dbus-daemo
+li.5527  16436  0.0  0.0 131916  4848 ?        S    18:52   0:01 /usr/libexec/gc
+li.5527  16451  0.0  0.0 329224  3320 ?        Sl   18:52   0:00 gnome-keyring-d
+li.5527  16452  0.2  0.1 493608 11064 ?        Ssl  18:52   0:14 /usr/libexec/gn
+li.5527  16455  0.0  0.0 283424  7720 ?        Ss   18:52   0:00 seahorse-daemon
+li.5527  16459  0.0  0.0 136396  1960 ?        S    18:52   0:00 /usr/libexec/gv
+li.5527  16482  0.1  0.1 454040 12756 ?        S    18:52   0:05 metacity
+li.5527  16484  0.0  0.1 500428 15376 ?        Sl   18:52   0:02 gnome-panel
+li.5527  16486  0.4  0.2 1061108 21296 ?       Sl   18:52   0:22 nautilus
+li.5527  16488  0.0  0.0 629840  3156 ?        Ssl  18:52   0:00 /usr/libexec/bo
+li.5527  16494  0.0  0.2 330424 19724 ?        S    18:52   0:00 python /usr/sha
+li.5527  16499  0.0  0.1 308440 11308 ?        SL   18:52   0:01 krb5-auth-dialo
+li.5527  16503  0.0  0.1 339368 13100 ?        S    18:52   0:03 /usr/libexec/wn
+li.5527  16504  0.0  0.1 323600  9304 ?        S    18:52   0:00 /usr/libexec/tr
+li.5527  16509  0.0  0.0 124756  3968 ?        Sl   18:52   0:00 /usr/libexec/im
+li.5527  16512  0.0  0.0 145580  3168 ?        S    18:52   0:00 /usr/libexec/gv
+li.5527  16532  0.0  0.0 143396  3056 ?        S    18:52   0:00 /usr/libexec/gv
+li.5527  16536  0.0  0.0 151080  2160 ?        S    18:52   0:00 /usr/libexec/gv
+li.5527  16538  0.0  0.0 260936  2684 ?        Ss   18:52   0:00 gnome-screensav
+li.5527  16546  0.0  0.0 232676  2048 ?        Sl   18:52   0:00 /usr/libexec/gv
+li.5527  16672  0.0  0.2 432724 18872 ?        S    18:52   0:00 /usr/bin/gnote
+li.5527  16680  0.0  0.1 548512 13560 ?        S    18:52   0:00 /usr/libexec/cl
+li.5527  16682  0.0  0.1 401164 11584 ?        S    18:52   0:00 /usr/libexec/gd
+li.5527  16685  0.0  0.0 287996  7800 ?        S    18:52   0:00 /usr/libexec/no
+li.5527  16714  0.0  0.0 150796  2572 ?        Sl   18:52   0:04 /usr/bin/ibus-d
+li.5527  16717  0.0  0.0  40092  2192 ?        S    18:52   0:00 /usr/libexec/gc
+li.5527  16718  0.0  0.0 155440  3240 ?        S    18:52   0:00 /usr/libexec/ib
+li.5527  16720  0.0  0.2 334404 24036 ?        S    18:52   0:04 python /usr/sha
+li.5527  16722  0.0  0.0 231096  5780 ?        S    18:52   0:00 /usr/libexec/ib
+li.5527  16741  0.0  0.0 136440  1900 ?        S    18:52   0:00 /usr/libexec/gv
+root     18249  0.0  0.0 104420  5416 ?        Ss   19:43   0:01 sshd: barrison.
+30347    18266  0.2  0.0 104420  2900 ?        S    19:43   0:07 sshd: barrison.
+30347    18267  0.7  0.1 147568 11284 ?        Ss   19:43   0:19 /usr/bin/perl /
+30347    18416  0.1  0.1 151720 11032 ?        S    19:43   0:04 FastX monitor 2
+30347    18417  4.0  0.7 1304660 61396 ?       Sl   19:43   1:47 Xorg :227 -logf
+30347    18431  0.0  0.0 254776  6292 ?        Sl   19:44   0:00 gnome-session
+30347    18448  0.0  0.0  19060   636 ?        S    19:44   0:00 dbus-launch --e
+30347    18449  0.0  0.0  31412  1580 ?        Ssl  19:44   0:01 /bin/dbus-daemo
+30347    18454  0.0  0.0 131912  4848 ?        S    19:44   0:00 /usr/libexec/gc
+30347    18465  0.2  0.1 493460 10996 ?        Ssl  19:44   0:07 /usr/libexec/gn
+30347    18466  0.0  0.0 329224  3304 ?        Sl   19:44   0:00 gnome-keyring-d
+30347    18468  0.0  0.0 283424  7720 ?        Ss   19:44   0:00 seahorse-daemon
+30347    18471  0.0  0.0 136396  1956 ?        S    19:44   0:00 /usr/libexec/gv
+30347    18491  0.1  0.1 416672 11244 ?        S    19:44   0:03 metacity
+30347    18494  0.1  0.2 501624 18384 ?        Sl   19:44   0:02 gnome-panel
+30347    18503  0.3  0.2 432064 17692 ?        S    19:44   0:08 nautilus
+30347    18505  0.0  0.0 826448  3268 ?        Ssl  19:44   0:00 /usr/libexec/bo
+30347    18515  0.1  0.1 337800 12004 ?        S    19:44   0:02 /usr/libexec/wn
+30347    18517  0.0  0.1 323600  9252 ?        S    19:44   0:00 /usr/libexec/tr
+30347    18519  0.0  0.0 145564  3148 ?        S    19:44   0:00 /usr/libexec/gv
+30347    18522  0.0  0.2 330428 19696 ?        S    19:44   0:00 python /usr/sha
+30347    18523  0.0  0.1 308552 11292 ?        SL   19:44   0:00 krb5-auth-dialo
+30347    18537  0.0  0.0 124756  3964 ?        Sl   19:44   0:00 /usr/libexec/im
+30347    18550  0.0  0.0 151080  2156 ?        S    19:44   0:00 /usr/libexec/gv
+30347    18552  0.0  0.0 143404  3080 ?        S    19:44   0:00 /usr/libexec/gv
+30347    18567  0.0  0.0 232676  2048 ?        Sl   19:44   0:00 /usr/libexec/gv
+30347    18573  0.0  0.0 260936  2556 ?        Ss   19:44   0:00 gnome-screensav
+30347    18698  0.0  0.2 421520 18076 ?        S    19:44   0:00 /usr/bin/gnote
+30347    18706  0.0  0.0 288000  7800 ?        S    19:44   0:00 /usr/libexec/no
+30347    18712  0.0  0.1 401208 11288 ?        S    19:44   0:00 /usr/libexec/gd
+30347    18713  0.0  0.1 548496 13496 ?        S    19:44   0:00 /usr/libexec/cl
+30347    18927  0.2  0.0 150864  2688 ?        Sl   19:44   0:05 /usr/bin/ibus-d
+30347    18936  0.0  0.0  40092  2188 ?        S    19:44   0:00 /usr/libexec/gc
+30347    19133  0.0  0.0 155440  3240 ?        S    19:44   0:00 /usr/libexec/ib
+30347    19135  0.1  0.2 334396 24024 ?        S    19:44   0:05 python /usr/sha
+30347    19137  0.0  0.0 231096  5764 ?        S    19:44   0:00 /usr/libexec/ib
+30347    19145  0.1  0.1 308564 13384 ?        Sl   19:44   0:03 gnome-terminal
+30347    19148  0.0  0.0   7432   536 ?        S    19:44   0:00 gnome-pty-helpe
+30347    19149  0.0  0.0 107432  1756 pts/4    Ss   19:44   0:00 bash
+root     19598  0.0  0.0      0     0 ?        S    14:50   0:00 [flush-0:28]
+root     19756  0.0  0.0  45584  2836 ?        S    Jan07   2:18 /usr/libexec/ud
+root     19763  0.0  0.0  45220   660 ?        S    Jan07   7:03 udisks-daemon: 
+flagg.18 21895 99.9  0.1 293460 14572 ?        R    Jan23 8687:15 emacs copy.py
+801714207 23565 0.0  0.1 250796 15264 pts/1    T    19:51   0:00 emacs forktest2
+801714207 25454 0.0  0.1 251208 15724 pts/1    T    19:55   0:01 emacs forktest3
+801995751 25465 0.1  0.1 151700 11052 ?        S    19:55   0:03 FastX monitor 2
+801995751 25466 3.9  0.5 1201252 44952 ?       Sl   19:55   1:17 Xorg :256 -logf
+801995751 25478 0.0  0.0 254776  6296 ?        Sl   19:55   0:00 gnome-session
+801995751 25483 0.0  0.0  19060   640 ?        S    19:55   0:00 dbus-launch --e
+801995751 25484 0.0  0.0  31408  1604 ?        Ssl  19:55   0:00 /bin/dbus-daemo
+801995751 25488 0.0  0.0 131896  4820 ?        S    19:55   0:00 /usr/libexec/gc
+801995751 25495 0.0  0.0 263692  3300 ?        Sl   19:55   0:00 gnome-keyring-d
+801995751 25496 0.2  0.1 493460 10992 ?        Ssl  19:55   0:05 /usr/libexec/gn
+801995751 25499 0.0  0.0 283416  7692 ?        Ss   19:55   0:00 seahorse-daemon
+801995751 25501 0.0  0.0 136396  1968 ?        S    19:55   0:00 /usr/libexec/gv
+801995751 25521 0.0  0.1 454124 12784 ?        S    19:55   0:01 metacity
+801995751 25522 0.0  0.1 500428 15204 ?        Sl   19:55   0:01 gnome-panel
+801995751 25524 0.3  0.2 1047368 18924 ?       S    19:55   0:06 nautilus
+801995751 25538 0.0  0.0 760912  3192 ?        Ssl  19:55   0:00 /usr/libexec/bo
+801995751 25548 0.0  0.2 330424 19692 ?        S    19:55   0:00 python /usr/sha
+801995751 25549 0.0  0.1 323048 12460 ?        SL   19:55   0:00 krb5-auth-dialo
+801995751 25558 0.0  0.1 338660 12716 ?        S    19:55   0:01 /usr/libexec/wn
+801995751 25561 0.0  0.1 323600  9268 ?        S    19:55   0:00 /usr/libexec/tr
+801995751 25565 0.0  0.0 145580  3164 ?        S    19:55   0:00 /usr/libexec/gv
+801995751 25566 0.0  0.0 124756  3960 ?        Sl   19:55   0:00 /usr/libexec/im
+801995751 25580 0.0  0.0 151080  2160 ?        S    19:55   0:00 /usr/libexec/gv
+801995751 25585 0.0  0.0 232676  2048 ?        Sl   19:55   0:00 /usr/libexec/gv
+801995751 25599 0.0  0.0 143412  3068 ?        S    19:55   0:00 /usr/libexec/gv
+801995751 25603 0.0  0.0 260936  2568 ?        Ss   19:55   0:00 gnome-screensav
+801995751 25649 0.0  0.2 421520 18072 ?        S    19:55   0:00 /usr/bin/gnote
+801995751 25650 0.0  0.1 401212 11584 ?        S    19:55   0:00 /usr/libexec/gd
+801995751 25651 0.0  0.0 288000  7804 ?        S    19:55   0:00 /usr/libexec/no
+801995751 25652 0.0  0.1 548492 13568 ?        S    19:55   0:00 /usr/libexec/cl
+801995751 25797 0.0  0.0 150864  2692 ?        Sl   19:55   0:00 /usr/bin/ibus-d
+801995751 25800 0.0  0.0  40092  2192 ?        S    19:55   0:00 /usr/libexec/gc
+801995751 25813 0.0  0.0 155440  3244 ?        S    19:55   0:00 /usr/libexec/ib
+801995751 25815 0.0  0.2 334432 23980 ?        S    19:55   0:01 python /usr/sha
+801995751 25817 0.0  0.0 231096  5768 ?        S    19:55   0:00 /usr/libexec/ib
+801995751 25823 0.0  0.0 136456  1900 ?        S    19:55   0:00 /usr/libexec/gv
+root     25921  0.0  0.1 116720 10556 ?        S    Jan18   0:00 /usr/bin/python
+801714207 31463 0.0  0.1 250736 15212 pts/1    T    20:03   0:01 emacs forktest4
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % pstree
+init─┬─acpid
+     ├─atd
+     ├─auditd───{auditd}
+     ├─automount───7*[{automount}]
+     ├─avahi-daemon───avahi-daemon
+     ├─4*[bonobo-activati───{bonobo-activat}]
+     ├─cgrulesengd
+     ├─clamd───{clamd}
+     ├─3*[clock-applet]
+     ├─console-kit-dae───63*[{console-kit-da}]
+     ├─crond
+     ├─cupsd
+     ├─5*[dbus-daemon───{dbus-daemon}]
+     ├─4*[dbus-launch]
+     ├─devkit-power-da
+     ├─dsm_om_connsvcd───dsm_om_connsvcd───42*[{dsm_om_connsvc}]
+     ├─dsm_om_shrsvcd───7*[{dsm_om_shrsvcd}]
+     ├─dsm_sa_datamgrd───11*[{dsm_sa_datamgr}]
+     ├─dsm_sa_eventmgr───2*[{dsm_sa_eventmg}]
+     ├─dsm_sa_snmpd───5*[{dsm_sa_snmpd}]
+     ├─emacs
+     ├─fail2ban-server───2*[{fail2ban-serve}]
+     ├─gam_server
+     ├─3*[gconf-im-settin]
+     ├─4*[gconfd-2]
+     ├─gdm-binary─┬─gdm-simple-slav─┬─Xorg───8*[{Xorg}]
+     │            │                 ├─gdm-session-wor
+     │            │                 ├─gnome-session─┬─at-spi-registry
+     │            │                 │               ├─gdm-simple-gree
+     │            │                 │               ├─metacity
+     │            │                 │               ├─polkit-gnome-au
+     │            │                 │               └─{gnome-session}
+     │            │                 └─{gdm-simple-sla}
+     │            └─{gdm-binary}
+     ├─3*[gdm-user-switch]
+     ├─3*[gnome-keyring-d───2*[{gnome-keyring-}]]
+     ├─3*[gnome-screensav]
+     ├─4*[gnome-settings-───{gnome-settings}]
+     ├─gnome-terminal─┬─bash───gedit
+     │                ├─gnome-pty-helpe
+     │                └─{gnome-terminal}
+     ├─gnome-terminal─┬─gnome-pty-helpe
+     │                ├─tcsh───script───script───tcsh───pstree
+     │                └─{gnome-terminal}
+     ├─3*[gnote]
+     ├─3*[gvfs-afc-volume───{gvfs-afc-volum}]
+     ├─3*[gvfs-gdu-volume]
+     ├─3*[gvfs-gphoto2-vo]
+     ├─4*[gvfsd]
+     ├─2*[gvfsd-metadata]
+     ├─3*[gvfsd-trash]
+     ├─hald─┬─hald-runner─┬─hald-addon-acpi
+     │      │             └─hald-addon-inpu
+     │      └─{hald}
+     ├─3*[ibus-x11]
+     ├─idfEndpoint───6*[{idfEndpoint}]
+     ├─3*[im-settings-dae─┬─ibus-daemon─┬─ibus-gconf]
+     │                    │             ├─python]
+     │                    │             └─{ibus-daemon}]
+     │                    └─{im-settings-da}]
+     ├─irqbalance
+     ├─ksmtuned───sleep
+     ├─mcelog
+     ├─mdadm
+     ├─5*[mingetty]
+     ├─3*[notification-ar]
+     ├─notification-da
+     ├─nrpe
+     ├─nscd───14*[{nscd}]
+     ├─ntpd
+     ├─polkitd
+     ├─rhnsd
+     ├─rhsmcertd
+     ├─rpc.statd
+     ├─rpcbind
+     ├─rsyslogd───3*[{rsyslogd}]
+     ├─3*[seahorse-daemon]
+     ├─2*[sendmail]
+     ├─snmpd
+     ├─sshd─┬─sshd───sshd───bash───5*[emacs]
+     │      ├─sshd───sshd───tcsh
+     │      ├─sshd───sshd───tcsh───fastx2_sci
+     │      └─sshd───sshd───fastx2_sci
+     ├─start─┬─Xorg───20*[{Xorg}]
+     │       └─gnome-session─┬─gnome-panel───{gnome-panel}
+     │                       ├─krb5-auth-dialo
+     │                       ├─metacity
+     │                       ├─nautilus
+     │                       ├─python
+     │                       └─{gnome-session}
+     ├─start─┬─Xorg───21*[{Xorg}]
+     │       └─gnome-session─┬─gnome-panel───{gnome-panel}
+     │                       ├─krb5-auth-dialo
+     │                       ├─metacity
+     │                       ├─nautilus───{nautilus}
+     │                       ├─python
+     │                       └─{gnome-session}
+     ├─start─┬─Xorg───8*[{Xorg}]
+     │       └─gnome-session─┬─gnome-panel───{gnome-panel}
+     │                       ├─krb5-auth-dialo
+     │                       ├─metacity
+     │                       ├─nautilus
+     │                       ├─python
+     │                       └─{gnome-session}
+     ├─system-config-f
+     ├─3*[trashapplet]
+     ├─udevd───2*[udevd]
+     ├─udisks-daemon───udisks-daemon
+     ├─uuidd
+     ├─3*[wnck-applet]
+     ├─xfs
+     ├─xinetd
+     └─ypbind───2*[{ypbind}]
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % man id
+[?1049h[?1h=ID(1)                            User Commands                           ID(1)
+
+[1mNAME[0m
+       id - print real and effective user and group IDs
+
+[1mSYNOPSIS[0m
+       [1mid[0m [[4mOPTION[24m]... [[4mUSERNAME[24m]
+
+[1mDESCRIPTION[0m
+       Print  user  and group information for the specified USERNAME, or (when
+       USERNAME omitted) for the current user.
+
+       [1m-a[0m     ignore, for compatibility with other versions
+
+       [1m-Z[0m, [1m--context[0m
+              print only the security context of the current user
+
+       [1m-g[0m, [1m--group[0m
+              print only the effective group ID
+
+       [1m-G[0m, [1m--groups[0m
+              print all group IDs
+
+:[K[K[?1l>[?1049l]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % id
+uid=30750(li.5527) gid=400(CISugENG) groups=400(CISugENG) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+]0;/dev/pts/5@zeta
+[7m/home/3/li.5527/Desktop/Lab1[80G[27m  % exit
+]0;/dev/pts/5@zeta
+exit
+
+Script done on Mon 29 Jan 2018 08:28:10 PM EST

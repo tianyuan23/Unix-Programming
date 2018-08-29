@@ -1,0 +1,157 @@
+Script started on Wed 28 Mar 2018 06:45:07 PM EDT
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./dirtree.csh
+|
+|------dirtree.csh
+|------dirtree.csh~
+|------dirtree_explorer.sh
+|------dirtree_explorer.sh~
+|------guess_game.sh
+|------guess_game.sh~
+|------guess.sh
+|------guess.sh~
+|------Lab4_1.txt
+|------Lab4_2.txt
+|------records.txt
+|------sample
+./dirtree.csh ./sample
+|------test
+./dirtree.csh ./test
+
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./dirtree.csh sample
+|
+|------haha
+|------sample1.txt
+|------sample2.txt
+|------test
+./dirtree.csh sample/test
+
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./dire[Ktree_explorer.sh 
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+2
+|
+|------dirtree.csh
+|------dirtree.csh~
+|------dirtree_explorer.sh
+|------dirtree_explorer.sh~
+|------guess_game.sh
+|------guess_game.sh~
+|------guess.sh
+|------guess.sh~
+|------Lab4_1.txt
+|------Lab4_2.txt
+|------records.txt
+|------sample
+./dirtree_explorer.sh ./sample
+|------test
+./dirtree_explorer.sh ./test
+
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+3
+Please enter the name of directory tree file
+tree
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+1
+sample
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+2
+     |    |
+     |    |------haha
+     |    |------sample1.txt
+     |    |------sample2.txt
+     |    |------test
+./dirtree_explorer.sh ./test
+     |    
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+3
+Please enter the name of directory tree file
+tree
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+4
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./dirtree_explorer.sh sample
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+2
+|
+|------haha
+|------sample1.txt
+|------sample2.txt
+|------test
+./dirtree_explorer.sh ./test
+|------tree
+
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+3
+Please enter the name of directory tree file
+tree
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+1
+test
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample/test
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+2
+|    |    |
+|    |    |------test_1
+|    |    |------test_2
+|    |    
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample/test
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+3
+Please enter the name of directory tree file
+tree
+The current directory is: /home/3/li.5527/Desktop/ClosedLab4/sample/test
+1.Enter a directory name
+2.Print the directory tree in the screen
+3.Print the directory tree to a file
+4.Exit
+4
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % exit
+]0;/dev/pts/3@sl5
+exit
+
+Script done on Wed 28 Mar 2018 06:48:16 PM EDT

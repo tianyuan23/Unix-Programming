@@ -1,0 +1,5 @@
+PERSONNEL FILE
+Ikeda James:834-938-8376:23445 Aster Ave., Allentown, NJ 83745:12/1/38:45000
+Kertz Barbara:385-573-8326:832 Ponce Drive, Gary, IN 83756:12/1/46:
+Pinhead Zippy:834-823-8319:2356 Bizarro Ave., Farmount, IL 84357:1/1/67:
+**END OF FILE**

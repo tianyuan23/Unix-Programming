@@ -1,0 +1,75 @@
+Script started on Mon 05 Mar 2018 04:23:53 PM EST
+]0;/dev/pts/20@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % bash createcontacts.sh 
+1. Enter a contact
+2. Show contacts
+3. Exit
+1
+1. friend's full name: first, last. Tianyuan  , Li
+2. his/her birth date (dd-mm) 23-08
+3. his/her phone number (xxx-yyy-yyyy) 614-111-0987
+4. his/her email (name@domain.xyz) litia@gmail.com
+
+1. Enter a contact
+2. Show contacts
+3. Exit
+1
+1. friend's full name: first, last. Harry, Poter
+2. his/her birth date (dd-mm) 03-05    5-03
+3. his/her phone number (xxx-yyy-yyyy) 315-7678 -1565
+4. his/her email (name@domain.xyz) harry@gmail.com
+
+1. Enter a contact
+2. Show contacts
+3. Exit
+1
+1. friend's full name: first, last. Jennifer, Lawrence
+2. his/her birth date (dd-mm) 05-03
+3. his/her phone number (xxx-yyy-yyyy) 782-425-0813
+4. his/her email (name@domain.xyz) jlaw@hotmail.com
+
+1. Enter a contact
+2. Show contacts
+3. Exit
+1
+1. friend's full name: first, last. Ha, Ha
+2. his/her birth date (dd-mm) 07-07\ 
+3. his/her phone number (xxx-yyy-yyyy) 694-773-3651
+4. his/her email (name@domain.xyz) haha@g qq/cp   .com
+
+1. Enter a contact
+2. Show contacts
+3. Exit
+2
+Tianyuan, Li  23-08  614-111-0987  litia@gmail.com
+Harry, Poter  05-03  315-767-1565  harry@gmail.com
+Jennifer, Lawrence  05-03  782-425-0813  jlaw@hotmail.com
+Ha, Ha  07-07  694-773-3651  haha@qq.com
+1. Enter a contact
+2. Show contacts
+3. Exit
+1
+1. friend's full name: first, last. HIm   Jim, Ha
+2. his/her birth date (dd-mm) 09-04
+3. his/her phone number (xxx-yyy-yyyy) 614-999-5363
+4. his/her email (name@domain.xyz) jimha@ .      ha.777@osu.edu
+
+1. Enter a contact
+2. Show contacts
+3. Exit
+2
+Tianyuan, Li  23-08  614-111-0987  litia@gmail.com
+Harry, Poter  05-03  315-767-1565  harry@gmail.com
+Jennifer, Lawrence  05-03  782-425-0813  jlaw@hotmail.com
+Ha, Ha  07-07  694-773-3651  haha@qq.com
+Jim, Ha  09-04  614-999-5363  ha.777@osu.edu
+1. Enter a contact
+2. Show contacts
+3. Exit
+3
+]0;/dev/pts/20@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % exit
+]0;/dev/pts/20@sl3
+exit
+
+Script done on Mon 05 Mar 2018 04:28:23 PM EST

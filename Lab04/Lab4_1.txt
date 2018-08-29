@@ -1,0 +1,81 @@
+Script started on Wed 28 Mar 2018 06:43:42 PM EDT
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./guess.sh 
+guess the number
+5
+too small
+10
+too small
+20
+too large
+15
+too small
+17
+too small
+18
+too small
+19
+correct!
+using 7 rounds
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % ./guess_game.sh 
+1.Run the guessing game
+2.Exit
+1
+guess the number
+10\ 
+too small
+15
+too small
+20
+too small
+25
+too small
+30
+too small
+35
+too large
+31
+correct!
+using 7 rounds
+1.Run the guessing game
+2.Exit
+1
+guess the number
+15
+too small
+30
+too large
+25
+too small
+27
+too large
+26
+correct!
+using 5 rounds
+1.Run the guessing game
+2.Exit
+1
+guess the number
+20
+too small
+25
+too large
+22
+correct!
+using 3 rounds
+1.Run the guessing game
+2.Exit
+2
+Existing the guessing game
+Your average of rounds is: 5
+Your scores are:
+7
+5
+3
+]0;/dev/pts/3@sl5
+[7m/home/3/li.5527/Desktop/ClosedLab4[80G[27m  % exit
+]0;/dev/pts/3@sl5
+exit
+
+Script done on Wed 28 Mar 2018 06:44:56 PM EDT

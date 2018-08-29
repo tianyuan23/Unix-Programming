@@ -1,0 +1,19 @@
+1. The command searches all files named starting with a 'p' for all lines with a string containing 'hom' followed by 0 or more characters and 'ds'
+2. grep '70' peopleonEarth.txt 
+3. grep '^[tT]' peopleonEarth.txt
+4. grep '4\>' peopleonEarth.txt 
+5. grep 'people' peopleonEarth.txt
+6. grep '4' peopleonEarth.txt
+7. grep '4,' peopleonEarth.txt
+8. grep ',4' peopleonEarth.txt
+9. grep '4,.' peopleonEarth.txt
+10. grep '^[IT]' peopleonEarth.txt
+11. grep '[^\d]' peopleonEarth.txt
+12. grep '[0-9]\{2,\}\s[A-Z]' peopleonEarth.txt
+13. grep 's\(s\s\)*' peopleonEarth.txt
+14. grep '[a-z]\{9,\}' peopleonEarth.txt
+15. grep '\<human' peopleonEarth.txt
+16. grep '\<million\>' peopleonEarth.txt
+17. grep '\<[a-z][a-zA-Z]*t\>' peopleonEarth.txt
+
+

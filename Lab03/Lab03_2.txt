@@ -1,0 +1,64 @@
+Script started on Mon 05 Mar 2018 04:31:36 PM EST
+]0;/dev/pts/15@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % exit% bash searchcontacts.sh Tianyuan Li
+Hello, Tianyuan Li!
+Today is Monday and the current time is 04:31:41 PM.
+These contacts are having a birthday today: 
+Harry, Poter
+Jennifer, Lawrence
+Enter a contact last name to search in file: Ha
+Ha, Ha  07-07  694-773-3651  haha@qq.com
+Jim, Ha  09-04  614-999-5363  ha.777@osu.edu
+Goodbye! The current hour is 16.
+]0;/dev/pts/15@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % bash searchcontacts.sh Tianyuan Li
+Hello, Tianyuan Li!
+Today is Monday and the current time is 04:31:52 PM.
+These contacts are having a birthday today: 
+Harry, Poter
+Jennifer, Lawrence
+Enter a contact last name to search in file: Love
+No matches found.
+The number of lines in mycontacts.txt is 5.
+The contact file is sorted by last name.
+
+Ha, Ha  07-07  694-773-3651  haha@qq.com
+Harry, Poter  05-03  315-767-1565  harry@gmail.com
+Jennifer, Lawrence  05-03  782-425-0813  jlaw@hotmail.com
+Jim, Ha  09-04  614-999-5363  ha.777@osu.edu
+Tianyuan, Li  23-08  614-111-0987  litia@gmail.com
+Goodbye! The current hour is 16.
+]0;/dev/pts/15@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % bash searchcontacts.sh Tianyuan Li
+Hello, Tianyuan Li!
+Today is Monday and the current time is 04:32:18 PM.
+These contacts are having a birthday today: 
+Harry, Poter
+Jennifer, Lawrence
+Enter a contact last name to search in file: Poter
+Harry, Poter  05-03  315-767-1565  harry@gmail.com
+Goodbye! The current hour is 16.
+]0;/dev/pts/15@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % bash searchcontacts.sh Tianyuan Li
+Hello, Tianyuan Li!
+Today is Monday and the current time is 04:32:35 PM.
+These contacts are having a birthday today: 
+Harry, Poter
+Jennifer, Lawrence
+Enter a contact last name to search in file: Park
+No matches found.
+The number of lines in mycontacts.txt is 5.
+The contact file is sorted by last name.
+
+Ha, Ha  07-07  694-773-3651  haha@qq.com
+Harry, Poter  05-03  315-767-1565  harry@gmail.com
+Jennifer, Lawrence  05-03  782-425-0813  jlaw@hotmail.com
+Jim, Ha  09-04  614-999-5363  ha.777@osu.edu
+Tianyuan, Li  23-08  614-111-0987  litia@gmail.com
+Goodbye! The current hour is 16.
+]0;/dev/pts/15@sl3
+[7m/home/3/li.5527/Desktop/Lab03[80G[27m  % exit
+]0;/dev/pts/15@sl3
+exit
+
+Script done on Mon 05 Mar 2018 04:32:48 PM EST
